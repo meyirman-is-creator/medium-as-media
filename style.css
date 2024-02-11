@@ -1,0 +1,240 @@
+*, 
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+ul, li{
+    list-style: none;
+}
+body{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    background: #F1F1F1;
+    padding: 0;
+}
+.header{
+    margin-bottom: 30px;
+}
+.container{
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header__top{
+    padding: 24px 0;
+}
+.logo{
+    text-decoration: none;
+    color: #000;
+    text-transform: lowercase;
+    font-size: 18px;
+    line-height: 22px;
+}
+.header__bottom-title{
+    padding: 64px 0;
+    font-size: 48px;
+    line-height: 120px;
+    font-weight: 500;
+}
+.category{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.category__item + .category__item{
+    margin-left: 20px;
+}
+.category__button{
+    background-color: transparent;
+    border: none;
+    font-family: 'Kanit', sans-serif;
+    font-size: 22px;
+    line-height: 24px;
+    color: #757575;
+}
+.category__button:hover{
+    border-bottom: 2px solid #757575;
+}
+.category__button-active{
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+.category__button-active:hover{
+    border-bottom: 2px solid #000;
+}
+.content__item{
+    cursor: pointer;
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+    padding-bottom: 36px;
+    justify-content: space-between;
+    border-bottom: 1px solid #00000033;
+}
+.author__photo{
+    max-width: 24px;
+    max-height: 24px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.author__photo img{
+    width: 100%;
+    height: 100%;
+}
+.content__item-img{
+    max-width: 265px;
+    max-height: 265px;
+}
+.content__item-img img{
+    width: 100%;
+    height: auto;
+}
+.content__item-info{
+    max-width: 693px;
+}
+.content__item-author{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.author__name{
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 18px;
+    margin-right: 20px;
+}
+.author__name span{
+    opacity: 0.5;
+}
+.data__content{
+    font-size: 14px;
+    line-height: 18px;
+    opacity: 0.5;
+}
+.content__item-title{
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 24px;
+    line-height: 34px;
+}
+.content__item-describtion{
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 70px;
+}
+.info__content{
+    display: flex;
+}
+.teg{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #081E34;
+    padding: 6px 16px;
+    background: #081E341F;
+    border-radius: 100px;
+    border: none;
+}
+.content{
+    margin-bottom: 100px;
+}
+.footer{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.footer__links{
+    text-align: right;
+    color: #081E34;
+    opacity: 0.5;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 42px;
+}
+.footer__links a{
+    text-decoration: underline;
+}
+.footer__from{
+    font-family: 'Inter', sans-serif;
+
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+}
+.article{
+    border-bottom: 1px solid #00000033;
+    padding-bottom: 130px;
+}
+.article__author{
+    margin-bottom: 70px;
+}
+.article__author-left{
+    display: flex;
+    align-items: center;
+}
+.author__inner{
+    margin-left: 16px;
+}
+.author__img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.author__inner-name{
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+.upload__inner-date{
+    margin-top: 12px;
+    font-size: 14px;
+    line-height: 18px;
+    opacity: 0.5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+.article__title{
+    font-size: 34px;
+    line-height: 38px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.article__description{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+
+    margin-bottom: 70px;
+}
+.article__img{
+    max-width: 100%;    
+    margin-bottom: 70px;
+}
+.article__name{
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.article__text{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    font-family: 'Inter', sans-serif;
+
+}
