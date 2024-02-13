@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">  
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-solid-straight/css/uicons-solid-straight.css'>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
 </head>
@@ -26,6 +28,11 @@
                     <li class="category__item"><button id="business" type="menu" class="category__button">Business</button></li>
                     <li class="category__item"><button id="technology" type="menu" class="category__button">Technology</button></li>
                     <li class="category__item"><button id="music" type="menu" class="category__button">Music</button></li>
+                    <li class="category__item"><button id="toFavorite" type="button" class="category__button toFavorite ">
+                        <span>Favorites</span>
+                        <i class="fi fi-ss-heart toFavoriteCategory"></i>
+                        <i class="fi fi-rs-heart toFavoriteCategory"></i>
+                    </button></li>
                 </ul>
             </div>
         </div>
@@ -33,7 +40,7 @@
     <section class="content">
         <div class="container">
             <div id="content" class="content__inner">
-                <!-- <a href="#" class="content__item">
+                <!-- <div class="content__item">
                     <div class="content__item-info">
                         <div class="content__item-author">
                             <div class="author__photo"><img src="img/user.jpg" alt=""></div>
@@ -43,13 +50,17 @@
                         <div class="content__item-title">7 Practical CSS Tips</div>
                         <div class="content__item-describtion">You not only learn more Python by implementing what you already know but, in the end, you can see how all your hard work pays off.</div>
                         <div class="info__content">
+                            
                             <button type="button" class="teg">JavaScript</button>
                         </div>
                     </div>
                     <div class="content__item-img">
                         <img src="img/bg.webp" alt="">
                     </div>
-                </a> -->
+                    <button class="favorite">
+                        <i class="fi fi-rs-heart"></i>
+                    </button>
+                </div>  -->
             </div>
             
         </div>
