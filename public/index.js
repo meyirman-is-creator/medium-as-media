@@ -30,10 +30,12 @@ function getContentItem(data, category) {
                 </div>`
 }
 async function switchCategory(category) {
-    await fetch(`https://newsapi.org/v2/top-headlines?country=us&category=${category}&apiKey=20e4c41c4d904ff49f10485c8aafa3b2`)
+    await fetch(`./${category}.json`)
         .then((response) => response.json())
         .then(data => {
+            console.log(data);
             content.innerHTML = "";
+
             data.articles.forEach(element => {
                 if ('[Removed]' !== element.title) {
                     let div = document.createElement('div');

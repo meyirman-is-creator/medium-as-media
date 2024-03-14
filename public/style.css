@@ -34,7 +34,7 @@ body {
 }
 
 .header {
-    margin-bottom: 130px;
+    margin-bottom: 50px;
 }
 
 .container {
@@ -135,6 +135,19 @@ body {
     max-width: 693px;
 }
 
+.navbar-collapse {
+    justify-content: right;
+}
+.navbar {
+    width:100%;
+}
+.bg-body-tertiary {
+    background-color: transparent !important;
+}
+.container-fluid {
+    padding-right: 0; 
+    padding-left: 0;
+}
 .content__item-author {
     display: flex;
     align-items: center;
@@ -188,7 +201,6 @@ body {
     background: #081E341F;
     border-radius: 100px;
     border: none;
-    height: 28px;
 }
 
 .footer {
